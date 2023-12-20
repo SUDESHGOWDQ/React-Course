@@ -1,0 +1,16 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.navart{
+    height: 50px;
+    width: 80%;
+    background: grey;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

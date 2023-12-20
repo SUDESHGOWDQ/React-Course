@@ -1,0 +1,40 @@
+.footersec{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.footdiv2 h2 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.footdiv2 h2 button{
+    padding: 10px;
+    background: grey;
+    border-radius: 10px;
+    border:1px solid white;
+}
+
+.footart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1040px) {
+    .footersec{
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+}

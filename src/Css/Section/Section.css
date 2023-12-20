@@ -1,0 +1,41 @@
+.sec{
+    background-color: #3D3D3D;
+}
+
+.sec center h1{
+    color: white;
+    padding: 100px;
+}
+.secsec{
+    height:auto;
+    width: 100%;
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.secsec .secdiv{
+    height: 70px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background: gray;
+}
+
+.secdiv ruby{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.secdiv ruby rt{
+font-size: 17px;
+font-weight: 100;
+}

@@ -1,0 +1,43 @@
+.App{
+    height: 100vh;
+    width: 100%;
+    background: url("https://cdn.pixabay.com/photo/2023/11/28/08/53/skyscraper-8416953_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: auto;
+    width: 300px;
+    background:white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+form input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+
+form button{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    background: orange;
+    color: azure;
+    border: 1px solid orange;
+}
+
+form button:hover{
+    background: black;
+    color: azure;
+    border: 1px solid black;
+}

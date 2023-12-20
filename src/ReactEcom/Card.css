@@ -1,0 +1,24 @@
+.card{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.carddiv{
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.carddiv button{
+    padding: 10px;
+    margin: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}

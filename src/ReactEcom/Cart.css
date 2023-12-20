@@ -1,0 +1,16 @@
+.cart{
+    width: 80%;
+    margin: auto;
+}
+
+table{
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: red;
+}

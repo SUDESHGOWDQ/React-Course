@@ -1,0 +1,38 @@
+.Maindiv{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.Maindiv p{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.Maindiv button{
+    background-color: gray;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1040x) {
+    .Maindiv{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}

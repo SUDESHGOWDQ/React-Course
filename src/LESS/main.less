@@ -1,0 +1,55 @@
+@col-white : white;  // varaibles
+@col-black:black;
+
+ 
+.App{                   // mixins
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap
+    
+}
+body{
+   .App();
+
+   form{
+    width: 450px;
+    height: auto;
+    background-color: black;
+    text-align: center;
+  
+
+    h1{
+        background-color: white;
+    }
+        input{
+            padding: 10px;
+            margin: 10px;
+            background: transparent;
+            outline: none;
+            border-bottom: 1px solid red;
+            text-align: center;
+        }
+
+        button{
+            background: orange;
+            padding: 10px;
+            width: 150px;
+        }
+    }
+   }
+
+
+   @media screen and (max-width:750px ) {
+  body{
+
+    form{
+        background:linear-gradient(green,black);
+       
+     }
+  }
+   }
+

@@ -1,0 +1,70 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background: orange;
+    border: 1px solid orange;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+table{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+table thead{
+    border-bottom: 1px solid white;
+    height: 100px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+main form{
+    height: auto;
+    width: 200px;
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+form input{
+    text-align: center;
+    padding: 10px;
+    outline: none;
+}
+
+
+table tbody{
+    border:1px solid white;
+
+}
+
+
+@media screen and (max-width:700px) {
+    table{
+       width: 80%;
+       margin: auto;
+    }
+
+    tbody button{
+        height: 50px;width: 50px;
+    }
+}

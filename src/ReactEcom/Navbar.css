@@ -1,0 +1,21 @@
+.navbar{
+    height: 55px;
+    width: 100%;
+    background: black;
+}
+
+.navart{
+    height: 55px;
+    width: 80%;
+    background: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navart .navdiv input{
+    padding: 10px;
+    color:black;
+    background: whitesmoke;
+}

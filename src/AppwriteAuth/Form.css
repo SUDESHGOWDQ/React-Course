@@ -1,0 +1,38 @@
+.Forms{
+    background: url("https://cdn.pixabay.com/photo/2023/11/01/11/14/cable-car-8357177_1280.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: auto;
+    width: 300px;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+}
+
+input{
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    margin: 10px;
+    color: white;
+    caret-color: blue;
+}
+
+button {
+    border: 1px solid orange;
+    background: orange;
+    padding: 10px;
+    width: 150px;
+}

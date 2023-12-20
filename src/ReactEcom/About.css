@@ -1,0 +1,12 @@
+.about{
+   height: auto;
+   width: 80%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+}
+
+.about .right img{
+    height: 50%;
+    width: 100%;
+}
