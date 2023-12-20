@@ -43,10 +43,8 @@ Here I Given Code of React Js Course
 
 
 
+#Projects
 
-
-
-###Projects
 ##
 1.Netflix Project 
 ##
